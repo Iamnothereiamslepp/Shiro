@@ -138,8 +138,8 @@ export default async function RootLayout(props: PropsWithChildren) {
           className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}
         >
           <div className="center flex h-screen">
-            初始数据的获取失败，请检查 API
-            服务器是否正常运行。接口请求错误信息：
+            初始資料的取得失敗，請檢查 API
+            伺服器是否正常運作。接口請求錯誤訊息：
             <br />
             {data.message}
           </div>
@@ -152,7 +152,7 @@ export default async function RootLayout(props: PropsWithChildren) {
 
   return (
     <AppFeatureProvider tmdb={!!process.env.TMDB_API_KEY}>
-      <html lang="zh-CN" className="noise themed" suppressHydrationWarning>
+      <html lang="zh-HK" className="noise themed" suppressHydrationWarning>
         <head>
           <PublicEnvScript />
           <Global />
@@ -218,8 +218,8 @@ const SayHi = () => {
       )
 
       const motto = `
-This Personal Space Powered By Mix Space.
-Written by TypeScript, Coding with Love.
+This Personal Space Powered By RALive.
+Written by Mix Space, Coding with Love.
 --------
 Stay hungry. Stay foolish. --Steve Jobs
 `
