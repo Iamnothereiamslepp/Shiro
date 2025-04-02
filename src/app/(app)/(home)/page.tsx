@@ -187,7 +187,7 @@ const Hero = () => {
           )}
         >
           <small className="text-center">
-            当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。
+            當第一顆衛星飛向大氣層外，我們便以為自己終有一天會征服宇宙。
           </small>
           <span className="mt-8 animate-bounce">
             <i className="i-mingcute-right-line rotate-90 text-2xl" />
@@ -223,33 +223,33 @@ const windsock = [
     icon: IcTwotoneSignpost,
   },
   {
-    title: '手记',
+    title: '手記',
     type: 'Note',
     path: '/notes',
     icon: FaSolidFeatherAlt,
   },
   {
-    title: '度过的时光呀',
+    title: '度過的时光呀',
     icon: FaSolidHistory,
     path: '/timeline',
   },
   {
-    title: '朋友们',
+    title: '朋友們',
     icon: FaSolidUserFriends,
     path: '/friends',
   },
   {
-    title: '写下一点思考',
+    title: '寫下一點思考',
     icon: MdiLightbulbOn20,
     path: '/thinking',
   },
   {
-    title: '看看我做些啥',
+    title: '看看我做些什麼',
     icon: MdiFlask,
     path: '/projects',
   },
   {
-    title: '记录下一言',
+    title: '記錄下一言',
     path: '/says',
     icon: FaSolidComments,
   },
@@ -274,7 +274,7 @@ const Windsock = () => {
   return (
     <>
       <div className="center mt-28 flex flex-col">
-        <div className="my-5 text-2xl font-medium">风向标</div>
+        <div className="my-5 text-2xl font-medium">風向標</div>
         <div className="mb-24 opacity-90">去到别去看看？</div>
         <ul className="flex flex-col flex-wrap gap-2 gap-y-8 opacity-80 lg:flex-row">
           {windsock.map((item, index) => {
@@ -336,7 +336,7 @@ const Windsock = () => {
                 })
               })
 
-            toast.success('谢谢你！', {
+            toast.success('謝謝你！', {
               iconElement: (
                 <m.i
                   className="i-mingcute-heart-fill text-uk-red-light"
@@ -357,7 +357,7 @@ const Windsock = () => {
             })
           }}
         >
-          喜欢本站 <i className="i-mingcute-heart-fill" />{' '}
+          喜歡本站o(^▽^)o <i className="i-mingcute-heart-fill" />{' '}
           <NumberSmoothTransition>
             {count as any as string}
           </NumberSmoothTransition>
@@ -369,7 +369,7 @@ const Windsock = () => {
             presentSubscribe()
           }}
         >
-          订阅
+          訂閱
           <i className="i-material-symbols-notifications-active" />
         </StyledButton>
       </div>
