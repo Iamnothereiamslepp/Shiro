@@ -95,7 +95,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
       },
       description: seo.description,
       siteName: `${seo.title}`,
-      locale: 'zh_CN',
+      locale: 'zh_HK',
       type: 'website',
       url: url.webUrl,
       images: {
@@ -128,7 +128,7 @@ export default async function RootLayout(props: PropsWithChildren) {
 
   if (data instanceof PreRenderError) {
     return (
-      <html lang="zh-CN" className="noise themed" suppressHydrationWarning>
+      <html lang="zh-HK" className="noise themed" suppressHydrationWarning>
         <head>
           <PublicEnvScript />
 
