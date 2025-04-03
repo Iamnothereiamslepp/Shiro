@@ -19,7 +19,7 @@ const FallbackComponent = () => {
           window.location.reload()
         }}
       >
-        Reload Page
+        Reload Page↺
       </StyledButton>
     </div>
   )
