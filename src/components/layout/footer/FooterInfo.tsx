@@ -192,7 +192,7 @@ const FooterBottom = async () => {
           </a>
           <Divider />
           <a href="/sitemap.xml" target="_blank" rel="noreferrer">
-            站点地图
+            站點地圖
           </a>
           <Divider className="inline" />
 
@@ -225,7 +225,7 @@ const FooterBottom = async () => {
           <>
             <Divider />
             <span>
-              最近访客来自&nbsp;
+              最近訪客來自&nbsp;
               {lastVisitor.flag}&nbsp;
               {[lastVisitor.city, lastVisitor.country]
                 .filter(Boolean)
